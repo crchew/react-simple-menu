@@ -27,7 +27,7 @@ const getAllergenColors = (allergens) => {
       
       <>
         <p>
-          <strong>{name}</strong> | {price} |
+          <strong>{name}</strong> | <strong>{price}</strong> |
           {allergens && allergens.length > 0 && (
           <>
             {getAllergenColors(allergens).map((allergen) => (
