@@ -1,9 +1,0 @@
-body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-.food-image{
-    width: 20vw;
-    height: 30vh;
-    object-fit: cover;
-}
