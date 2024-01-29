@@ -77,10 +77,10 @@ function App() {
           </div>
 
           {/* Right Column for Images */}
-          <div className="col-md-6 d-flex flex-column mt-4">
+          <div className="col-md-6 d-flex flex-column justify-content-center align-items-center mt-4">
             <img src={jollieFriedChickenImage} alt="Jollie Fried Chicken" className='rounded-circle food-image p-2'/>
             <img src={jollieApplePie} alt="Jollie Apple Pie" className='rounded-circle food-image p-2'/>
-            <img src={jollieIceCream} alt="Jollie Ice Cream" className='rounded-circle food-image'/>
+            <img src={jollieIceCream} alt="Jollie Ice Cream" className='rounded-circle food-image p-2'/>
           </div>
         </div>
       </div>
